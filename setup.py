@@ -17,7 +17,7 @@ setup(
     license = "MIT",
     packages=find_packages(),
     long_description=read('README.md'),
-    python_requires = ">=3.7"
+    python_requires = ">=3.7",
     install_requires = [
         "numpy", 
         "matplotlib"

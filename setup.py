@@ -28,7 +28,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     project_urls = {
-        "Homepage" = "https://github.com/torresolmx/PhoenixGeoPy"
-        "Bug Tracker" = "https://github.com/torresolmx/PhoenixGeoPy/issues"
+        "Homepage" : "https://github.com/torresolmx/PhoenixGeoPy",
+        "Bug Tracker" : "https://github.com/torresolmx/PhoenixGeoPy/issues"
     }
 )

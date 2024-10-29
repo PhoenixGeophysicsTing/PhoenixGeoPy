@@ -27,7 +27,7 @@ jobs:
         run: |
           python setup.py sdist bdist_wheel  # Could also be python -m build
       - name: Publish package distributions to Test PyPI
-        uses: pypa/gh-action-pypi-publish@master
+        uses: pypa/gh-action-pypi-publish@main
 	with:
 		skip_existing: true
 		user: __token__

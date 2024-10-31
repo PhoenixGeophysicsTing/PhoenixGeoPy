@@ -29,7 +29,7 @@ jobs:
       - name: Publish package distributions to Test PyPI
         uses: pypa/gh-action-pypi-publish@main
 	with:
-		skip_existing: true
-		user: __token__
-		password: ${{secrets.TEST_PYPI_PASSWORD}}
-		repository_url:https://test.pypi.org/legacy/
+	  skip_existing: true
+	  user: __token__
+	  password: ${{secrets.TEST_PYPI_PASSWORD}}
+	  repository_url: https://test.pypi.org/legacy/
